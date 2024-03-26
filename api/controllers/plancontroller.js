@@ -1,6 +1,6 @@
 const status = require("http-status");
 const { ifKeyExists, getETag } = require("../services/redis.service");
-const config = require("../../config/local.json");
+const config = require("../../config/config.json");
 const { isValidJSONSchema } = require("../services/jsonSchema.service");
 
 const PLAN_SCHEMA = require("../models/plan.model");
